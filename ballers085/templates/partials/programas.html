@@ -1,0 +1,32 @@
+{% load static %}
+<div class="cards">
+
+    <a href="{% url 'treinos_categoria' 'academia' %}">
+        <div class="card">
+            <img src={% static "imgs/gifs/academia.gif" %} class="card-img-top" alt="Treino de costas" />
+            <h5 class="card-header text-center">Academia</h5>
+        </div>
+    </a>
+
+
+    <a href="{% url 'treinos_categoria' 'arremesso' %}">
+        <div class="card">
+            <img src={% static "imgs/gifs/arremesso.gif" %} class="card-img-top" alt="Treino de costas" />
+            <h5 class="card-header text-center">Arremesso</h5>
+        </div>
+    </a>
+
+    <a href="{% url 'treinos_categoria' 'fisico' %}">
+        <div class="card">
+            <img src={% static "imgs/gifs/condicionamento.gif" %} class="card-img-top" alt="Treino de costas" />
+            <h5 class="card-header text-center">Condicionamento</h5>
+        </div>
+    </a>
+
+    <a href="{% url 'treinos_categoria' 'drible' %}">
+        <div class="card">
+            <img src={% static "imgs/gifs/drible.gif" %} class="card-img-top" alt="Treino de costas" />
+            <h5 class="card-header text-center">Drible</h5>
+        </div>
+    </a>
+</div>

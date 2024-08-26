@@ -1,0 +1,20 @@
+{
+  "name": "Ballers085",
+  "description": "Um site para ver treinos de basquete",
+  "image": "python",
+  "repository": "https://github.com/JackDev085/ballers085-refatorado",
+  "keywords": ["python", "django"],
+  "env": {
+    "DJANGO_SECRET_KEY": {
+      "description": "The secret key for the Django application.",
+      "generator": "secret"
+    }
+  },
+  "environments": {
+    "test": {
+      "scripts": {
+        "test": "./manage.py test --debug-mode"
+      }
+    }
+  }
+}
